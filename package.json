@@ -1,0 +1,13 @@
+{
+  "name": "projectamazona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backendAmazona/server.js",
+    "build":"cd backendAmazona && npm install && cd ../hook && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
